@@ -5,7 +5,7 @@ using System.Xml.Linq;
 using Microsoft.AspNetCore.DataProtection.Repositories;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace Fisho.Framework.Service.DataProtection.DistributedStoreRedis
+namespace AspNetCore.DataProtection.DistributedStore
 {
     public class DistributedStoreXmlRepository: IXmlRepository
     {

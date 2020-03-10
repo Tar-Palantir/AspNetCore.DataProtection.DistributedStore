@@ -6,7 +6,7 @@ using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace Fisho.Framework.Service.DataProtection.DistributedStoreRedis
+namespace AspNetCore.DataProtection.DistributedStore
 {
     public static class PersistKeysToDistributedStoreExtensions
     {
