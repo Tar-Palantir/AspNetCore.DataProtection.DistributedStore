@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.DataProtection.DistributedStore", "AspNetCore.DataProtection.DistributedStore\AspNetCore.DataProtection.DistributedStore.csproj", "{720B4903-94AC-4CAA-A919-0254CDFA98FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{720B4903-94AC-4CAA-A919-0254CDFA98FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720B4903-94AC-4CAA-A919-0254CDFA98FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720B4903-94AC-4CAA-A919-0254CDFA98FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720B4903-94AC-4CAA-A919-0254CDFA98FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
