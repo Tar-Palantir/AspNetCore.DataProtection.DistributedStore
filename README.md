@@ -10,13 +10,13 @@
 * Package Manager
 
 ```sh
-PM> Install-Package AspNetCore.DataProtection.DistributedStore -Version 1.0.0
+PM> Install-Package AspNetCore.DataProtection.DistributedStore -Version 1.0.1
 ```
 
 * .NET CLI
 
 ```sh
-dotnet add package AspNetCore.DataProtection.DistributedStore --version 1.0.0
+dotnet add package AspNetCore.DataProtection.DistributedStore --version 1.0.1
 ```
 
 ## How to use
