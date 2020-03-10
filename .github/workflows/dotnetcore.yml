@@ -1,0 +1,33 @@
+name: Release
+
+on: [create]
+jobs:
+  build:
+    name: Build Project
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '2.2.103'
+    - name: Build
+      run: dotnet build MonkeyDotNet/Monkey
+  
+  publish:
+    needs: [build]
+    name: Publish Project to Nuget
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '2.2.103'
+    - name: Publish
+      run: |
+        version=`git describe --tags`
+        dotnet pack AspNetCore.DataProtection.DistributedStore --configuration release -p:PackageVersion=$version
+        dotnet nuget push AspNetCore.DataProtection.DistributedStore/bin/release/AspNetCore.DataProtection.DistributedStore.$version.nupkg -k ${APIKEY} -s https://www.nuget.org/api/v2/package
+      env:
+        APIKEY: ${{ secrets.nuget_APPKEY }}
