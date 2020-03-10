@@ -25,11 +25,8 @@ Open Startup.cs
 
 Configure DistributedStore in ConfigureServices:
 
-```csharp
-    //you can use MemoryCache
-    //services.AddMemoryCache();
-    
-    //or use RedisCache
+```csharp    
+    //use RedisCache
     services.AddDistributedRedisCache(options =>
     {
         options.Configuration = Configuration["Redis:ConnectionString"]; //redis连接字符串
