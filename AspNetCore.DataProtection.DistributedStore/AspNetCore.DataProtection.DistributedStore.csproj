@@ -3,17 +3,17 @@
 <PropertyGroup>
   <TargetFramework>netcoreapp2.1</TargetFramework>
   <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-  <AssemblyVersion>1.0.0</AssemblyVersion>
-  <FileVersion>1.0.0</FileVersion>
-  <Version>1.0.0</Version>
+  <AssemblyVersion>1.0.1</AssemblyVersion>
+  <FileVersion>1.0.1</FileVersion>
+  <Version>1.0.1</Version>
   <Authors>TarPalantir</Authors>
   <RepositoryUrl>https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore.git</RepositoryUrl>
   <AssemblyName>AspNetCore.DataProtection.DistributedStore</AssemblyName>
   <AssemblyTitle>AspNetCore.DataProtection.DistributedStore</AssemblyTitle>
   <PackageId>Astaldo.AspNetCore.DataProtection.DistributedStore</PackageId>
-  <PackageTags>DistributedStore;Redis;Cache;DataProtection</PackageTags>
+  <PackageTags>AspNetCore;DistributedStore;Redis;Cache;DataProtection</PackageTags>
   <PackageLicenseUrl>https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/blob/master/LICENSE</PackageLicenseUrl>
-  <Description>Support for storing data protection keys in  Microsoft.Extensions.Caching.Distributed.IDistributedCache.</Description>
+  <Description>Support for storing data protection keys in Microsoft.Extensions.Caching.Distributed.IDistributedCache.</Description>
   
 </PropertyGroup>
   
