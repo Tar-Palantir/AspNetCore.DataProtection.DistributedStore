@@ -1,25 +1,26 @@
-name: Release
+name: publish
 
-on: [create]
+on: 
+  create
+
 jobs:
   build:
     name: Build Project
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
-        dotnet-version: '2.2.103'
-    - name: Build
-      run: dotnet build MonkeyDotNet/Monkey
-  
+        dotnet-version: 2.2.103
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
   publish:
     needs: [build]
     name: Publish Project to Nuget
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
       with:
