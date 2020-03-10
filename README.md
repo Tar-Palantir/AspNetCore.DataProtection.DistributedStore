@@ -2,6 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/Tar-Palantir/AspNetCore.DataProtection.DistributedStore)](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/blob/master/LICENSE)
 ![build](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/workflows/build/badge.svg)
+![publish](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/workflows/publish/badge.svg)
 
 ## Install
 
@@ -21,7 +22,7 @@ dotnet add package AspNetCore.DataProtection.DistributedStore --version 1.0.0
 
 Open Startup.cs
 
-Configure DistributedStore in ConfigureServices: 
+Configure DistributedStore in ConfigureServices:
 
 ```csharp
     //you can use MemoryCache
