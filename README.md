@@ -3,6 +3,7 @@
 [![GitHub](https://img.shields.io/github/license/Tar-Palantir/AspNetCore.DataProtection.DistributedStore)](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/blob/master/LICENSE)
 ![build](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/workflows/build/badge.svg)
 ![publish](https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/workflows/publish/badge.svg)
+[![AspNetCore.DataProtection.DistributedStore](https://img.shields.io/nuget/vpre/AspNetCore.DataProtection.DistributedStore.svg)](https://www.nuget.org/packages/AspNetCore.DataProtection.DistributedStore/)
 
 ## Install
 

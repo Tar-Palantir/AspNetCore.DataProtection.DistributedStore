@@ -10,9 +10,10 @@
   <RepositoryUrl>https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore.git</RepositoryUrl>
   <AssemblyName>AspNetCore.DataProtection.DistributedStore</AssemblyName>
   <AssemblyTitle>AspNetCore.DataProtection.DistributedStore</AssemblyTitle>
-  <PackageId>AspNetCore.DataProtection.DistributedStore</PackageId>
+  <PackageId>Astaldo.AspNetCore.DataProtection.DistributedStore</PackageId>
   <PackageTags>DistributedStore;Redis;Cache;DataProtection</PackageTags>
   <PackageLicenseUrl>https://github.com/Tar-Palantir/AspNetCore.DataProtection.DistributedStore/blob/master/LICENSE</PackageLicenseUrl>
+  <Description>Support for storing data protection keys in  Microsoft.Extensions.Caching.Distributed.IDistributedCache.</Description>
   
 </PropertyGroup>
   
