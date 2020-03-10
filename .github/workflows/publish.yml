@@ -30,6 +30,6 @@ jobs:
       run: |
         version=`git describe --tags`
         dotnet pack AspNetCore.DataProtection.DistributedStore --configuration release -p:PackageVersion=$version
-        dotnet nuget push AspNetCore.DataProtection.DistributedStore/bin/release/AspNetCore.DataProtection.DistributedStore.$version.nupkg -k ${APIKEY} -s https://api.nuget.org/v3/index.json --skip-duplicate
+        dotnet nuget push AspNetCore.DataProtection.DistributedStore/bin/release/AspNetCore.DataProtection.DistributedStore.$version.nupkg -k ${APIKEY} -s https://api.nuget.org/v3/index.json
       env:
         APIKEY: ${{ secrets.nuget_APPKEY }}
